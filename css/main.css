@@ -4,7 +4,90 @@
  *
  * Site Styles
  *****************************************************************************/
+html {
+	padding: 0;
+}
+body { 
+	margin: 0;
+	background-clip: url('../img/flying_monkey_loop.mp4');
+	background-color: yellowgreen;
+}
+header { 
+	min-height: 400px;
+	background-image: url('../img/monkaa_title.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
 
- html {
-     color: green;
- }
+nav ul li {
+	display: inline;	
+}
+a.active {
+	font-weight: bold; 
+}
+
+a:hover { 
+    background-color: yellow;
+}
+h1 {
+	font-family: fantasy;
+}
+
+
+#social {
+	background: orange;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	width: 25px;
+	transition: 2s width;
+}	
+.headshot  {
+	width: 249px;
+	height: 249px;
+}
+.weybec-people li {
+	display: inline;
+	float: left;
+	margin: 10px;
+}
+.clearfix {
+	clear: both;
+}
+
+#social:hover {
+	width: 250px;
+}
+
+#social ul {
+	list-style-type: none;
+}
+#social li {
+	margin: none;
+	padding: none;
+}
+
+p.subtitle {
+	font-family: sans-serif;
+}
+	
+h2 {
+	font-family: sans-serif;
+	color: blue;
+}
+.download-button {
+  display: block;
+  width: 135px;
+  height: 43px;
+  background: url('../img/player_play.png') no-repeat top;
+  float: left;
+}
+
+.lead {
+	background: orange;
+	font-family: fantasy;
+}
+.descrip {
+	background-color: white;
+}
